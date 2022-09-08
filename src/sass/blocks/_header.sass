@@ -1,0 +1,32 @@
+header
+    position: relative
+    width: 970px
+    height: 80px
+    margin: 0 
+    .menu
+        padding: 25px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style-type: none
+        &_item
+            border-right: 1px solid $main-color
+            padding-right: 55px
+            height: 30px
+            padding-top: 2px
+            &:last-child
+                padding-right: 0
+                border-right: none
+            
+        &_link
+            text-decoration: none
+            color: #fff
+            font-size: 20px
+            letter-spacing: 1.25px
+nav
+    position: fixed
+    z-index: 9999
+    width: 100%
+    height: 80px
+    background-color: rgba(41, 41, 41, 0.8)
+    
